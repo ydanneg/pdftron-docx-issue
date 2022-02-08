@@ -13,6 +13,6 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
 
-    testImplementation("com.pdftron:PDFNet:9.2.0")
+    testImplementation("com.pdftron:PDFNet:9.1.0")
     testImplementation(kotlin("test"))
 }
