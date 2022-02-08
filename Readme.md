@@ -6,7 +6,7 @@ Since PDFNet version 9.2.0 it is broken to recognize variables with a special ch
 It is a production blocker for us since we use prefixes to introduce a custom type to a variable. 
 
 For example, we use prefix `%` to recognize variable as a special type 'Signature' where our engine prepares a signature image first and then inserts it using PDFNet as an image.   
-This is done by a string reason.
+This is done by a strong reason.
 
 Example: `{{%signature}}`
 
